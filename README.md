@@ -1,17 +1,17 @@
-Android SQLite Veritabanı İşlemleri Örneği
-Bu projede, Android uygulamalarında SQLite veritabanı ile çalışmayı gösteren basit bir örnek yer almaktadır. Özellikle hataları yakalamak ve try-catch kullanımını önermek üzerine odaklanmaktadır.
+Android SQLite Database Operations Example
+This project is a simple example of working with SQLite database in Android applications. In particular, it focuses on catching errors and recommending the use of try-catch.
 
-Kılavuz: SQLite Veritabanı İşlemleri: Hataları Yakalamak ve CRUD İşlemleri Yapmak
-Bu kılavuz, Android uygulamalarında SQLite veritabanıyla çalışırken hataları yakalamayı ve temel CRUD (Create, Read, Update, Delete) işlemlerini nasıl gerçekleştireceğinizi adım adım açıklamaktadır.
+Guidelines: SQLite Database Operations: Catching Errors and Performing CRUD Operations
+This guide explains step by step how to catch errors and perform basic CRUD (Create, Read, Update, Delete) operations when working with SQLite database in Android apps.
 
-Kod örneğinde, aşağıdaki işlemler yapılmaktadır:
+In the code example, the following operations are performed:
 
-Veritabanı oluşturma ve açma
-Müzisyenler tablosunu oluşturma (varsa mevcut tabloyu kontrol eder)
-Yeni müzisyen ekleme
-Müzisyen bilgilerini güncelleme
-Müzisyen silme
-Müzisyenleri listeleme
-Bu örnek, SQLiteDatabase sınıfını kullanarak SQLite veritabanı işlemlerini gerçekleştirmenin temellerini göstermektedir. Ayrıca, try-catch bloğu kullanarak hataları yakalama ve hata ayıklama sürecine dikkat çekmektedir.
+Create and open a database
+Create the Musicians table (checks existing table if available)
+Adding new musicians
+Update musician information
+Musician deletion
+List musicians
+This example demonstrates the basics of performing SQLite database operations using the SQLiteDatabase class. It also highlights the process of catching and debugging errors using a try-catch block.
 
-Kod örneği ve açıklamaları, Android uygulamanızda SQLite veritabanı işlemlerini anlamak ve uygulamak için bir başlangıç noktası olabilir.
+The code example and its explanations can be a starting point for understanding and implementing SQLite database operations in your Android application.
